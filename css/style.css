@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto');
+
+body{
+	background-color:white;
+}
+
+header div.logo{
+position:relative;
+overflow:hidden;
+padding:10px;	
+}
+
+
+header div.logo a img{
+position:relative;
+display:block;
+width:200px;
+margin:0px auto 0px auto;
+}
+
+#message{
+height:1000px;
+overflow:hidden;
+background-image:url("../images/back.jpg");
+background-repeat:no-repeat;
+}
+
+#message img{
+position:relative;
+display:block;
+width:400px;
+margin:0px auto 0px auto;
+}
+
+#steps{
+    position:relative;
+	background-color:#528daf;
+	height:800px;
+	text-align:center; 
+}
+
+#steps img.beach{
+margin-top:-150px;
+}
+
+#steps .row{
+position:relative;
+}
+
+
+#steps img.call{
+margin-bottom:-120px;
+}
+
+
+.process{
+	display:block;
+	height:auto;
+    color:white; 
+	background-color:#3f6cb2;
+	margin:0px auto 0px auto !important;
+	margin-top:100px !important;
+	float:none;
+	border-radius:25px;
+}
+
+.process h2{
+
+font-family: 'Anton', sans-serif;
+font-size:30pt;
+padding:20px;
+}
+
+
+#steps h3{
+
+font-family: 'Roboto', sans-serif;
+font-size:25pt;
+padding:20px;
+color:white;
+margin-top:100px;
+}
+
+.process ul{
+
+list-style-type:none;
+text-align:justify;
+}
+
+.process ul li{
+margin-top:15px;
+font-family: 'Roboto', sans-serif;
+font-size:18pt;
+
+	}
+
+.process p{
+	width:60%;
+	text-align:left !important;
+
+}
+
+footer{
+height:200px;
+background-color:#ffff;
+padding:30px;
+}
+
+
+.social a{
+text-decoration-style:none !important;
+margin:10px;
+}
+
+
+
+
+.social span{
+font-size:12pt;
+margin:10px;
+}
+
+
+
+.contact p{
+font-family: 'Roboto', sans-serif;
+font-size:16pt;
+}
+
+
+/* Custom, iPhone Retina */ 
+
+
+@media only screen and (max-width : 480px) {
+
+
+
+	}
+
+
