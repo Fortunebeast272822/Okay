@@ -36,11 +36,13 @@ margin:0px auto 0px auto;
 #steps{
     position:relative;
 	background-color:#528daf;
-	height:900px;
+	height:950px;
 	text-align:center; 
 }
 
 #steps img.beach{
+
+width:500px;
 margin-top:-150px;
 }
 
@@ -52,6 +54,9 @@ position:relative;
 #steps img.call{
 margin-bottom:-120px;
 }
+
+
+
 
 
 .process{
@@ -154,7 +159,6 @@ width:300px;
 .process{
 	
 	margin-top:50px !important;
-	
 	border-radius:15px;
 }
 
@@ -167,7 +171,7 @@ margin-bottom:-120px;
 
 
 
-.process ul li{
+.process p.stepList{
 margin-top:15px;
 font-family: 'Roboto', sans-serif;
 font-size:14pt;
@@ -189,12 +193,19 @@ footer{
 }
 
 .social{
-margin-top:40px;	
+margin-top:40px;
+padding:0px;	
 }
 
 .contact{
 	margin-top:40px;
+	padding:2px;
 }
+
+.contact p{
+	font-size:12pt;
+
+	}
 
 
 	}
