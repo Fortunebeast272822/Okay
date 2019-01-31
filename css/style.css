@@ -36,7 +36,7 @@ margin:0px auto 0px auto;
 #steps{
     position:relative;
 	background-color:#528daf;
-	height:1000px;
+	height:900px;
 	text-align:center; 
 }
 
@@ -83,20 +83,15 @@ color:white;
 margin-top:90px;
 }
 
-.process ul{
 
-list-style-type:none;
-text-align:justify;
-}
-
-.process ul li{
+.process p.stepList{
 margin-top:15px;
-font-family: 'Roboto', sans-serif;
+font-family:'Roboto', sans-serif;
 font-size:18pt;
-word-spacing:2px;
+text-align:left;
 	}
 
-.process p{
+.process p.terms{
 	width:60%;
 	text-align:left !important;
 
